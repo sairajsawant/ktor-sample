@@ -27,6 +27,9 @@ dependencies {
     implementation("io.ktor:ktor-server-request-validation:$ktor_version")
     implementation("io.ktor:ktor-serialization-gson:$ktor_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
+    implementation("io.arrow-kt:arrow-core:1.2.0-RC")
+    implementation("io.ktor:ktor-client-core:$ktor_version")
+    implementation("redis.clients:jedis:2.7.0")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 }
